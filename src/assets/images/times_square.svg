@@ -1,0 +1,111 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky_nyc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020814" />
+      <stop offset="60%" stop-color="#0B192C" />
+      <stop offset="100%" stop-color="#1E3E62" />
+    </linearGradient>
+    <linearGradient id="billboard_glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C1829" />
+      <stop offset="50%" stop-color="#162E51" />
+      <stop offset="100%" stop-color="#071120" />
+    </linearGradient>
+    <linearGradient id="neon_beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+    <radialGradient id="stage_light" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Sky & Night Atmosphere -->
+  <rect width="1200" height="750" fill="url(#sky_nyc)" />
+  <circle cx="600" cy="280" r="500" fill="url(#stage_light)" />
+
+  <!-- Manhattan Skyline Silhouettes in the Background -->
+  <path d="M 0 520 L 40 520 L 40 460 L 80 460 L 80 520 L 120 520 L 120 400 L 160 400 L 160 360 L 180 300 L 190 300 L 190 400 L 220 400 L 220 520 L 260 520 L 280 440 L 320 440 L 320 520 L 880 520 L 920 420 L 960 420 L 960 470 L 1000 470 L 1000 380 L 1030 380 L 1040 320 L 1050 320 L 1060 380 L 1100 380 L 1100 520 L 1150 520 L 1150 450 L 1200 450 L 1200 750 L 0 750 Z" fill="#060E1A" />
+  
+  <!-- Architectural Glowing Windows in Skyscrapers -->
+  <g fill="#F8FAFC" fill-opacity="0.15">
+    <rect x="130" y="420" width="6" height="8" />
+    <rect x="145" y="420" width="6" height="8" />
+    <rect x="130" y="440" width="6" height="8" />
+    <rect x="145" y="440" width="6" height="8" />
+    <rect x="1010" y="400" width="6" height="8" />
+    <rect x="1025" y="400" width="6" height="8" />
+    <rect x="1010" y="420" width="6" height="8" />
+    <rect x="1070" y="410" width="6" height="8" />
+  </g>
+
+  <!-- Broadway Ground Reflections & Traffic Neon Streak -->
+  <polygon points="0,750 300,550 900,550 1200,750" fill="#040912" />
+  <line x1="300" y1="550" x2="0" y2="750" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.3" />
+  <line x1="900" y1="550" x2="1200" y2="750" stroke="#F43F5E" stroke-width="2" stroke-opacity="0.3" />
+
+  <!-- Street Level Yellow Cab / Light Trails -->
+  <path d="M 280 680 Q 600 660 920 680" stroke="#F59E0B" stroke-width="4" stroke-opacity="0.7" stroke-linecap="round" />
+  <path d="M 240 700 Q 600 675 960 700" stroke="#EF4444" stroke-width="3" stroke-opacity="0.6" stroke-linecap="round" />
+  <path d="M 320 665 Q 600 650 880 665" stroke="#38BDF8" stroke-width="2.5" stroke-opacity="0.8" stroke-linecap="round" />
+
+  <!-- The Massive Centerstage Times Square Digital Billboard Truss -->
+  <!-- Support Structure & Rigging -->
+  <rect x="250" y="60" width="700" height="460" rx="12" fill="#071120" stroke="#1E3A5F" stroke-width="6" />
+  <rect x="240" y="50" width="720" height="480" rx="16" fill="none" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.4" />
+
+  <!-- Digital LED Screen Display Area -->
+  <rect x="264" y="74" width="672" height="432" rx="8" fill="url(#billboard_glow)" />
+
+  <!-- LED Grid Texture -->
+  <rect x="264" y="74" width="672" height="432" rx="8" fill="none" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.15" stroke-dasharray="2 2" />
+
+  <!-- Billboard Content: SOHAIL KHAN IN NYC -->
+  <g transform="translate(600, 150)">
+    <!-- Top NYC Kicker -->
+    <rect x="-140" y="-30" width="280" height="26" rx="4" fill="#38BDF8" fill-opacity="0.15" stroke="#38BDF8" stroke-width="1" />
+    <text x="0" y="-13" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#38BDF8" letter-spacing="4">TIMES SQUARE · NEW YORK CITY</text>
+    
+    <!-- Iconic Name Headline -->
+    <text x="0" y="55" text-anchor="middle" font-family="'Cinzel', 'Times New Roman', serif" font-size="52" font-weight="900" fill="#FFFFFF" letter-spacing="4">SOHAIL KHAN</text>
+
+    <!-- Subtitle Banner -->
+    <text x="0" y="95" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="700" fill="#BAE6FD" letter-spacing="2">AI PRODUCT MANAGER &amp; STRATEGIST</text>
+
+    <line x1="-220" y1="125" x2="220" y2="125" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.5" />
+
+    <!-- Feature Description -->
+    <text x="0" y="160" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="22" font-style="italic" font-weight="600" fill="#F8FAFC">
+      “Recognised on the iconic Manhattan media landscape.”
+    </text>
+
+    <!-- Micro Metadata -->
+    <text x="0" y="210" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#94A3B8" letter-spacing="2">
+      BROADWAY &amp; 42ND ST · GLOBAL IMPACT MILESTONE
+    </text>
+  </g>
+
+  <!-- High-Density Billboard Perimeter Lights -->
+  <g fill="#38BDF8">
+    <circle cx="268" cy="78" r="3" />
+    <circle cx="932" cy="78" r="3" />
+    <circle cx="268" cy="502" r="3" />
+    <circle cx="932" cy="502" r="3" />
+    <circle cx="600" cy="78" r="3" />
+    <circle cx="600" cy="502" r="3" />
+  </g>
+
+  <!-- Surrounding Neon Signs (Broadway Context) -->
+  <g opacity="0.8">
+    <!-- Left Neon Sign -->
+    <rect x="80" y="240" width="130" height="200" rx="6" fill="#0C1829" stroke="#EC4899" stroke-width="2" />
+    <text x="145" y="320" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#F472B6" letter-spacing="2">NYC</text>
+    <text x="145" y="350" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#FBCFE8">LIVE 2026</text>
+
+    <!-- Right Neon Sign -->
+    <rect x="990" y="240" width="130" height="200" rx="6" fill="#0C1829" stroke="#38BDF8" stroke-width="2" />
+    <text x="1055" y="320" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#38BDF8" letter-spacing="2">GLOBAL</text>
+    <text x="1055" y="350" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#BAE6FD">MEDIA</text>
+  </g>
+</svg>

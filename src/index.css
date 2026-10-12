@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cormorant Garamond", Garamond, Georgia, serif;
+    --font-display: "Cormorant Garamond", "Cinzel", Georgia, serif;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", Menlo, monospace;
+    --color-paper: #FAF9F5;
+    --color-ink: #0C1829; /* Deep Midnight Blue */
+    --color-blue: #0E2140; /* Rich Deep Blue */
+    --color-muted: #4E5D73; /* Muted Slate Blue */
+    --color-navy: #0C1829; /* Deep Midnight Blue */
+    --color-sky: #0284C7; /* Aviation Horizon Sky Blue */
+    --color-forest: #1F3F34;
+    --color-rule: #D5DCE6; /* Cool Navy Hairline Rule */
+    --color-dark: #071120; /* Midnight Deep Blue Section */
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+}
+
+.font-serif-title {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+
+.font-serif-body {
+  font-family: var(--font-serif);
+}
+
+.font-mono-meta {
+  font-family: var(--font-mono);
+}
+
+.font-cinzel {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+/* Deep Blue & Editorial helpers */
+.text-deep-blue {
+  color: #0C1829;
+}
+
+.text-editorial-red {
+  color: #0C1829;
+}
+
+.bg-deep-blue {
+  background-color: #0C1829;
+}
+
+.bg-editorial-red {
+  background-color: #0C1829;
+}
+
+.border-editorial-rule {
+  border-color: #D5DCE6;
+}
+
+/* Custom newspaper divider and subtle rules */
+.newspaper-border {
+  border-color: #D5DCE6;
+}
+
+.newspaper-double-border {
+  border-top: 3px double #0C1829;
+}
+
+.newspaper-single-rule {
+  border-top: 1px solid #D5DCE6;
+}
+
+/* Logo marquee infinite horizontal animation */
+@keyframes logoMarquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-33.333333%);
+  }
+}
+
+.animate-logo-marquee {
+  animation: logoMarquee 28s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-logo-marquee {
+    animation: none !important;
+  }
+}
+
